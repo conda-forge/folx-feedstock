@@ -1,5 +1,5 @@
 {% set name = "folx" %}
-{% set version = "0.2.20" %}
+{% set version = "0.2.22" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/folx-{{ version }}.tar.gz
-  sha256: 98dc9873e4f53cc427e18c0e58254f85a8d09f140851627cd7bb6c1e5edad369
+  sha256: 1c6f1f95714065f153286dd342b672dd0ea692ee7d2a5b205879c65b011c310a
 
 build:
   noarch: python
